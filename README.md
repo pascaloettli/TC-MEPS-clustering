@@ -11,6 +11,10 @@ Each above directory contains 21 subdirectories, from 01 to 21 (one for each JMA
 - X, Y: Easting and northing of the center in [m], JGD2011 / UTM zone 53N (EPSG:6690)
 - X1, Y1: X and Y relative to the first position (Blender et al., 1997, [10.1002/qj.49712353910](https://doi.org/10.1002/qj.49712353910)) at the first initialization and forecast times; Scaled by standard deviation in each direction
 
+File naming convention:
+YYYYMMDDhhmmss = Initialization date and time
+
+File structure
 ```
 dimensions:
 	time = 14 ;
